@@ -22,8 +22,9 @@ namespace Blackjack
                 + "The Ace card has either the value of 11 or 1, depending on which is more beneficial.\n"
                 + "Enjoy the game!\n"
             );
-            
-            
+
+            Console.WriteLine("Enter any key to continue...");
+            Console.ReadLine();
         }
 
         public static void Prompt ()
